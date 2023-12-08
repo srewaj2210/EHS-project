@@ -28,6 +28,12 @@ section {
     border-radius: 5px;
 }
 
+
+img {
+    float: right;
+}
+    
+
 h2 {
     color: #333;
 }
