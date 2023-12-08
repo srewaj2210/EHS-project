@@ -354,27 +354,136 @@
             </ol>
         </section>
 
-        <!-- Electrical Safety Section -->
+                <!-- Electrical Safety Section -->
         <section id="electrical-safety">
             <h2>Electrical Safety</h2>
-            <p>Tips on avoiding overloading sockets, safe use of extension cords, and the importance of regular electrical inspections.</p>
-            
-            <h3>Detailed Electrical Safety Tips</h3>
-            <ul>
-                <li>Do not overload power outlets with too many appliances.</li>
-                <li>Inspect cords for damage and replace them if necessary.</li>
-                <li>Keep electrical appliances and cords away from water.</li>
-            </ul>
 
-            <h3>Engaging Visuals and Infographics to Highlight Key Points</h3>
-            <p>Visual aids demonstrating safe electrical practices and how to identify potential hazards.</p>
+            <h3>Detailed Electrical Safety Tips</h3>
+            <ol>
+                <li><b>Managing Cords and Outlets:</b>
+                    <ul>
+                        <li>Avoid overloading electrical outlets with multiple adaptors or power strips.</li>
+                        <li>Regularly inspect cords for damage and replace frayed or worn cords immediately.</li>
+                        <li>Ensure cords are not placed under rugs or in high traffic areas to prevent tripping and wear.</li>
+                        <li>Use cord management solutions to keep cords organized and out of sight.</li>
+                    </ul>
+                </li>
+                <li><b>Safe Appliance Use:</b>
+                    <ul>
+                        <li>Unplug small appliances when not in use, especially in areas prone to water exposure.</li>
+                        <li>Follow manufacturer guidelines for proper use and maintenance of appliances.</li>
+                        <li>Avoid using damaged or malfunctioning appliances until they have been properly repaired.</li>
+                        <li>Keep appliances away from wet surfaces and never touch them with wet hands.</li>
+                    </ul>
+                </li>
+                <li><b>Water and Electricity:</b>
+                    <ul>
+                        <li>Keep electrical devices away from water to prevent shock hazards.</li>
+                        <li>Ensure that outlets near water sources are equipped with Ground Fault Circuit Interrupters (GFCIs).</li>
+                        <li>Regularly test GFCIs to ensure they are functioning properly.</li>
+                        <li>Avoid using extension cords in bathrooms or near sinks.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Childproofing Electrical Elements</h3>
+            <ol>
+                <li><b>Outlet Covers:</b>
+                    <ul>
+                        <li>Use safety covers on all accessible electrical outlets to prevent children from inserting objects.</li>
+                        <li>Choose tamper-resistant outlets for added safety in homes with small children.</li>
+                    </ul>
+                </li>
+                <li><b>Securing Cords:</b>
+                    <ul>
+                        <li>Keep cords out of reach of children and avoid running them under carpets or across walkways.</li>
+                        <li>Use cord clips or wraps to secure loose cords along walls or behind furniture.</li>
+                    </ul>
+                </li>
+                <li><b>Teaching Electrical Safety:</b>
+                    <ul>
+                        <li>Educate children about the dangers of electricity and the importance of not touching electrical appliances.</li>
+                        <li>Supervise young children around electrical devices and teach them to report damaged cords or outlets.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Preventing Electrical Fires</h3>
+            <ol>
+                <li><b>Surge Protectors:</b>
+                    <ul>
+                        <li>Use surge protectors to safeguard electronic devices from power surges and potential fires.</li>
+                        <li>Choose surge protectors with built-in overload protection for added safety.</li>
+                    </ul>
+                </li>
+                <li><b>Regular Inspections:</b>
+                    <ul>
+                        <li>Have a qualified electrician inspect your home's electrical system periodically to ensure it meets safety standards.</li>
+                        <li>Look out for signs of electrical problems, such as frequent circuit breaker trips or flickering lights.</li>
+                    </ul>
+                </li>
+                <li><b>Safe Heating Practices:</b>
+                    <ul>
+                        <li>Keep flammable materials away from space heaters and never leave heating equipment unattended.</li>
+                        <li>Use only heaters with automatic shut-off features and keep them away from combustible materials.</li>
+                        <li>Regularly clean and inspect heating devices for proper operation.</li>
+                    </ul>
+                </li>
+            </ol>
         </section>
 
-        <!-- Quiz Section -->
+
         <section id="quiz">
             <h2>Home Safety Quiz</h2>
-            <!-- Quiz content will be added here -->
+            <p>Test your knowledge with this fun and informative home safety quiz!</p>
+        
+            <div class="quiz-question">
+                <p><b>1. What is the recommended frequency for testing smoke detectors in your home?</b></p>
+                <ol type="A">
+                    <li>Once a year</li>
+                    <li>Every six months</li>
+                    <li>Every month</li>
+                </ol>
+            </div>
+        
+            <div class="quiz-question">
+                <p><b>2. Where should you store household cleaning products to keep children safe?</b></p>
+                <ol type="A">
+                    <li>Under the kitchen sink</li>
+                    <li>In a high cabinet</li>
+                    <li>On the countertop</li>
+                </ol>
+            </div>
+        
+            <div class="quiz-question">
+                <p><b>3. What is the most important thing to do to prevent falls at home?</b></p>
+                <ol type="A">
+                    <li>Wear comfortable shoes</li>
+                    <li>Keep floors clutter-free</li>
+                    <li>Dim the lights at night</li>
+                </ol>
+            </div>
+        
+            <button onclick="toggleAnswers()">View Answers</button>
+        
+            <div id="answers" style="display:none;">
+                <h3>Answers</h3>
+                <p><b>1. What is the recommended frequency for testing smoke detectors in your home?</b><br>Answer: C. Every month</p>
+                <p><b>2. Where should you store household cleaning products to keep children safe?</b><br>Answer: B. In a high cabinet</p>
+                <p><b>3. What is the most important thing to do to prevent falls at home?</b><br>Answer: B. Keep floors clutter-free</p>
+            </div>
         </section>
+        
+        <script>
+            function toggleAnswers() {
+                var x = document.getElementById("answers");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
     </main>
     <footer>
         <h2>Conclusion</h2>
